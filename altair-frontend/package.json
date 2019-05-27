@@ -1,5 +1,5 @@
 {
-  "name": "altair",
+  "name": "@xarples/altair-frontend",
   "version": "0.0.1",
   "description": "Simple authorization and authentication server",
   "main": "index.js",
