@@ -1,0 +1,25 @@
+{
+  "name": "@xarples/altair-config",
+  "version": "0.0.1",
+  "description": "Configuration module of altair",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "preinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://wwww.github.com/altair.git"
+  },
+  "author": "xarples",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5"
+  }
+}

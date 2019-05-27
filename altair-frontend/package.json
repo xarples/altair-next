@@ -1,0 +1,39 @@
+{
+  "name": "altair",
+  "version": "0.0.1",
+  "description": "Simple authorization and authentication server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://wwww.github.com/altair.git"
+  },
+  "keywords": [
+    "authorization",
+    "authentication",
+    "server"
+  ],
+  "author": "xarples",
+  "license": "MIT",
+  "dependencies": {
+    "@xarples/altair-config": "file:../altair-config",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "nuxt": "^2.7.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.7.1",
+    "@types/express": "^4.16.1",
+    "@types/node": "^12.0.2",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.5"
+  }
+}
