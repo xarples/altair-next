@@ -17,6 +17,6 @@ if (config.dev) {
 
 app.use(nuxt.render);
 
-server.listen(altairConfig.port, () => {
-  console.log(`Server listening on http://localhost:${altairConfig.port}`);
+server.listen(altairConfig.app.port, () => {
+  console.log(`Server listening on http://localhost:${altairConfig.app.port}`);
 });

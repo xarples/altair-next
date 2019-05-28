@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  # frontend:
+  #   build:
+  #     context: .
+  #     dockerfile: "./altair-frontend/development.Dockerfile"
+  #   ports:
+  #     - 3000:3000
+  #   volumes:
+  #     - .:/usr/local/src/altair
+  #     - /usr/local/src/altair/altair-api/node_modules
+  #     - /usr/local/src/altair/altair-config/node_modules
+  #     - /usr/local/src/altair/altair-frontend/node_modules
+  #     - /usr/local/src/altair/altair-utils/node_modules
+
+  api:
+    build:
+      context: .
+      dockerfile: "./altair-api/development.Dockerfile"
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/usr/local/src/altair
+      - /usr/local/src/altair/altair-api/node_modules
+      - /usr/local/src/altair/altair-config/node_modules
+      - /usr/local/src/altair/altair-frontend/node_modules
+      - /usr/local/src/altair/altair-utils/node_modules
