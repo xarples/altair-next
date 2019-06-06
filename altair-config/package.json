@@ -4,8 +4,7 @@
   "description": "Configuration module of altair",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
-    "preinstall": "npm run build"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
